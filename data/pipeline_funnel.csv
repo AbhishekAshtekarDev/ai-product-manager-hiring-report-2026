@@ -1,0 +1,7 @@
+stage,postings
+AI-relevant postings collected,8073
+Unique after removing duplicates,5198
+"AI central to the role (Tier A + B), the core dataset",2448
+AI in the job title (Tier A),1784
+"General PM title, AI is the core of the job (Tier B)",664
+"AI mentioned but not central (Tier C, excluded)",2750

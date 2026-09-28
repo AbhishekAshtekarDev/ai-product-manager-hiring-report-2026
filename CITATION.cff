@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the AI Product Manager Hiring Report 2026."
+type: dataset
+title: "AI Product Manager Job Postings 2026: Open Dataset"
+abstract: "Aggregated tables from 2,448 unique AI product manager job postings (1,560 companies, 53 countries) captured on 2026-09-12: skills, salaries, degree and experience requirements, seniority, role types, locations and work mode."
+authors:
+  - family-names: Ashtekar
+    given-names: Abhishek
+    website: "https://theaiproductmanagerblueprint.com/about/"
+version: 1.0.0
+date-released: "2026-09-28"
+license: CC-BY-4.0
+url: "https://abhishekashtekardev.github.io/ai-product-manager-hiring-report-2026/"
+repository: "https://github.com/AbhishekAshtekarDev/ai-product-manager-hiring-report-2026"
+keywords:
+  - AI product manager
+  - job postings
+  - salary data
+  - skills
+  - hiring report
+  - labor market
+preferred-citation:
+  type: report
+  title: "AI Product Manager Hiring Report 2026: What 2,448 Job Postings Reveal About Skills, Salaries, Degrees & Experience"
+  authors:
+    - family-names: Ashtekar
+      given-names: Abhishek
+  year: 2026
+  month: 9
+  publisher:
+    name: ZeroToAIMastery.com
+  url: "https://theaiproductmanagerblueprint.com/ai-product-manager-hiring-report-2026/"

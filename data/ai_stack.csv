@@ -1,0 +1,26 @@
+skill,postings,share_pct
+Artificial Intelligence,2427,99.1
+Machine Learning,1273,52
+AI Agents / Agentic AI,1253,51.2
+Large Language Models,1130,46.2
+Generative AI,719,29.4
+Responsible AI / AI Ethics,568,23.2
+Model Evaluation / Evals,479,19.6
+RAG (Retrieval-Augmented Generation),466,19
+Guardrails & Safety,327,13.4
+Prompt Engineering,309,12.6
+Human-in-the-Loop,256,10.5
+Fine-tuning,173,7.1
+Embeddings,173,7.1
+Hallucination Mitigation,135,5.5
+Natural Language Processing,127,5.2
+Vector Search,113,4.6
+Recommendation Systems,93,3.8
+Context Engineering,88,3.6
+Predictive Analytics,81,3.3
+Foundation Models,80,3.3
+Multimodal AI,68,2.8
+Computer Vision,60,2.5
+Deep Learning,47,1.9
+Speech / Voice AI,45,1.8
+Synthetic Data,8,0.3

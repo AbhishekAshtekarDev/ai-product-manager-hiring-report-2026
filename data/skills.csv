@@ -1,0 +1,141 @@
+skill,category,postings,share_pct,required_mentions,preferred_mentions,required_share_pct
+Artificial Intelligence,AI & ML Foundations,2427,99.1,700,333,67.8
+Roadmapping,Product Management,1863,76.1,234,38,86
+Communication,Leadership & Human Skills,1734,70.8,498,87,85.1
+Prioritization,Product Management,1650,67.4,357,43,89.2
+Collaboration,Leadership & Human Skills,1632,66.7,330,100,76.7
+Stakeholder Management,Product Management,1557,63.6,413,49,89.4
+Cross-functional Leadership,Product Management,1389,56.7,322,57,85
+Product Strategy,Product Management,1295,52.9,130,37,77.8
+Ambiguity / Autonomy,Leadership & Human Skills,1292,52.8,313,76,80.5
+Machine Learning,AI & ML Foundations,1273,52,352,130,73
+AI Agents / Agentic AI,Modern GenAI Stack,1253,51.2,232,115,66.9
+Leadership,Leadership & Human Skills,1246,50.9,233,56,80.6
+Large Language Models,AI & ML Foundations,1130,46.2,274,98,73.7
+Financial Services,Domain Knowledge,976,39.9,213,142,60
+Metrics & KPIs,Product Management,972,39.7,135,19,87.7
+B2B / Enterprise Product,Product Management,947,38.7,214,94,69.5
+Healthcare / Life Sciences,Domain Knowledge,896,36.6,200,155,56.3
+Product Requirements (PRDs),Product Management,852,34.8,136,6,95.8
+Legal / RegTech,Domain Knowledge,832,34,155,100,60.8
+Customer Empathy / UX,Product Management,824,33.7,175,32,84.5
+Agile / Scrum,Product Management,813,33.2,203,43,82.5
+Generative AI,AI & ML Foundations,719,29.4,162,48,77.1
+REST APIs,Technical & Engineering,692,28.3,134,79,62.9
+APIs,Technical & Engineering,690,28.2,172,43,80
+Go-to-Market (GTM),Product Management,648,26.5,102,12,89.5
+Product Lifecycle Mgmt,Product Management,627,25.6,100,17,85.5
+Data-Driven Decisions,Product Management,597,24.4,126,24,84
+Partnerships / BD,Business & Commercial,584,23.9,79,26,75.2
+Responsible AI / AI Ethics,Modern GenAI Stack,568,23.2,99,48,67.3
+Mentorship / Coaching,Leadership & Human Skills,518,21.2,77,32,70.6
+Problem Solving,Leadership & Human Skills,505,20.6,146,18,89
+Experimentation & A/B Testing,Product Management,492,20.1,92,21,81.4
+Model Evaluation / Evals,Modern GenAI Stack,479,19.6,94,49,65.7
+Executive Communication,Leadership & Human Skills,476,19.4,97,23,80.8
+Cybersecurity,Domain Knowledge,470,19.2,76,52,59.4
+RAG (Retrieval-Augmented Generation),Modern GenAI Stack,466,19,112,35,76.2
+Adaptability / Learning,Leadership & Human Skills,429,17.5,84,27,75.7
+Sales Enablement,Business & Commercial,403,16.5,41,14,74.5
+Media / Entertainment,Domain Knowledge,399,16.3,81,33,71.1
+Platform / API Product,Product Management,399,16.3,86,33,72.3
+Public Sector / Defense,Domain Knowledge,392,16,63,51,55.3
+E-commerce / Retail,Domain Knowledge,387,15.8,66,50,56.9
+Business Strategy,Business & Commercial,374,15.3,44,13,77.2
+P&L / Business Metrics,Business & Commercial,368,15,51,14,78.5
+HR / Future of Work,Domain Knowledge,342,14,62,39,61.4
+Guardrails & Safety,Modern GenAI Stack,327,13.4,38,13,74.5
+Data Pipelines / ETL,Technical & Engineering,322,13.2,74,39,65.5
+Anthropic / Claude,Tools & Platforms,314,12.8,68,23,74.7
+Energy / Climate,Domain Knowledge,311,12.7,46,17,73
+Prompt Engineering,Modern GenAI Stack,309,12.6,85,24,78
+Dashboards & Reporting,Data & Analytics,297,12.1,46,18,71.9
+Storytelling,Leadership & Human Skills,294,12,38,10,79.2
+Data Analysis,Data & Analytics,287,11.7,62,11,84.9
+Pricing & Monetization,Business & Commercial,285,11.6,51,23,68.9
+System Design / Architecture,Technical & Engineering,266,10.9,66,13,83.5
+Market Research,Business & Commercial,265,10.8,31,6,83.8
+SQL,Technical & Engineering,262,10.7,68,16,81
+Human-in-the-Loop,Modern GenAI Stack,256,10.5,38,17,69.1
+Cloud Computing,Technical & Engineering,249,10.2,43,20,68.3
+Product Discovery,Product Management,245,10,40,11,78.4
+Customer Obsession,Leadership & Human Skills,243,9.9,42,8,84
+Data Governance,Technical & Engineering,239,9.8,54,9,85.7
+AWS,Cloud Platforms,236,9.6,48,25,65.8
+User Research,Product Management,232,9.5,33,11,75
+Microsoft Azure,Cloud Platforms,228,9.3,59,27,68.6
+Competitive Analysis,Business & Commercial,227,9.3,30,3,90.9
+Manufacturing / Industrial,Domain Knowledge,227,9.3,37,20,64.9
+Influence w/o Authority,Leadership & Human Skills,221,9,53,2,96.4
+Python,Technical & Engineering,220,9,51,13,79.7
+Compliance & Regulation,Business & Commercial,214,8.7,40,18,69
+Model Context Protocol (MCP),Tools & Platforms,213,8.7,35,21,62.5
+Budget / Resource Mgmt,Business & Commercial,211,8.6,33,14,70.2
+Supply Chain / Logistics,Domain Knowledge,198,8.1,41,18,69.5
+Jira / Confluence,Tools & Platforms,198,8.1,65,11,85.5
+OpenAI,Tools & Platforms,195,8,33,10,76.7
+Developer Tools,Domain Knowledge,195,8,48,13,78.7
+Embeddings,Modern GenAI Stack,173,7.1,26,9,74.3
+Fine-tuning,Modern GenAI Stack,173,7.1,44,15,74.6
+Critical Thinking,Leadership & Human Skills,163,6.7,28,9,75.7
+Customer Interviews,Product Management,163,6.7,19,3,86.4
+Big Data (Spark/Hadoop),Technical & Engineering,155,6.3,29,17,63
+MLOps,Technical & Engineering,144,5.9,37,10,78.7
+CI/CD & DevOps,Technical & Engineering,143,5.8,34,14,70.8
+Edge / On-device AI,Technical & Engineering,137,5.6,26,6,81.2
+Automotive / Mobility,Domain Knowledge,136,5.6,20,16,55.6
+Hallucination Mitigation,Modern GenAI Stack,135,5.5,21,4,84
+Google Cloud (GCP),Cloud Platforms,131,5.4,34,18,65.4
+Natural Language Processing,AI & ML Foundations,127,5.2,34,10,77.3
+B2C / Consumer Product,Product Management,115,4.7,20,8,71.4
+Vector Search,Modern GenAI Stack,113,4.6,22,15,59.5
+Google Gemini,Tools & Platforms,102,4.2,24,4,85.7
+Tableau / Power BI / Looker,Tools & Platforms,101,4.1,20,6,76.9
+Snowflake,Tools & Platforms,101,4.1,16,17,48.5
+Excel / Spreadsheets,Tools & Platforms,100,4.1,17,2,89.5
+Recommendation Systems,AI & ML Foundations,93,3.8,26,13,66.7
+Context Engineering,Modern GenAI Stack,88,3.6,15,7,68.2
+Git / Version Control,Technical & Engineering,87,3.6,16,5,76.2
+LangChain,Tools & Platforms,87,3.6,20,9,69
+Statistics,Data & Analytics,85,3.5,23,3,88.5
+Salesforce,Tools & Platforms,83,3.4,21,8,72.4
+Predictive Analytics,AI & ML Foundations,81,3.3,12,4,75
+Figma,Tools & Platforms,80,3.3,26,8,76.5
+Foundation Models,AI & ML Foundations,80,3.3,8,4,66.7
+Product-Market Fit,Product Management,76,3.1,14,3,82.4
+Technical Documentation,Product Management,74,3,17,2,89.5
+Webhooks / Integrations,Technical & Engineering,73,3,18,3,85.7
+Multimodal AI,Modern GenAI Stack,68,2.8,9,6,60
+Azure OpenAI,Tools & Platforms,64,2.6,15,3,83.3
+Model Inference / Serving,Technical & Engineering,61,2.5,12,6,66.7
+Computer Vision,AI & ML Foundations,60,2.5,14,7,66.7
+JavaScript / TypeScript,Technical & Engineering,58,2.4,10,5,66.7
+Education / EdTech,Domain Knowledge,57,2.3,11,4,73.3
+Telecom,Domain Knowledge,54,2.2,8,8,50
+LLMOps,Technical & Engineering,53,2.2,8,9,47.1
+Data Modeling,Technical & Engineering,52,2.1,13,3,81.2
+Kubernetes,Technical & Engineering,52,2.1,8,5,61.5
+AWS Bedrock / SageMaker,Tools & Platforms,51,2.1,6,3,66.7
+LangGraph,Tools & Platforms,49,2,11,6,64.7
+Deep Learning,AI & ML Foundations,47,1.9,7,3,70
+Speech / Voice AI,AI & ML Foundations,45,1.8,5,9,35.7
+Microservices,Technical & Engineering,40,1.6,8,5,61.5
+Amplitude / Mixpanel,Tools & Platforms,37,1.5,9,5,64.3
+Notebooks (Jupyter),Tools & Platforms,32,1.3,7,0,100
+Feature Stores,Technical & Engineering,29,1.2,8,1,88.9
+PyTorch / TensorFlow,Tools & Platforms,29,1.2,4,4,50
+Cohort / Funnel Analysis,Data & Analytics,23,0.9,1,0,100
+LlamaIndex,Tools & Platforms,23,0.9,7,3,70
+Docker,Technical & Engineering,18,0.7,3,2,60
+C++ / C#,Technical & Engineering,15,0.6,3,0,100
+Streaming (Kafka/Flink),Technical & Engineering,15,0.6,1,1,50
+Hugging Face,Tools & Platforms,14,0.6,3,2,60
+MLflow / W&B,Tools & Platforms,11,0.4,2,3,40
+Java,Technical & Engineering,10,0.4,2,0,100
+GraphQL,Technical & Engineering,10,0.4,3,1,75
+Synthetic Data,Modern GenAI Stack,8,0.3,0,2,0
+Weaviate / Qdrant / Milvus/ FAISS,Tools & Platforms,6,0.2,0,0,
+Pinecone,Tools & Platforms,5,0.2,0,1,0
+R,Technical & Engineering,4,0.2,2,0,100
+Scala,Technical & Engineering,1,0,0,0,
+Go (Golang),Technical & Engineering,1,0,0,0,

@@ -1,0 +1,80 @@
+skill,postings_with_skill,median_with_usd,median_without_usd,delta_usd,delta_pct
+Fine-tuning,66,223225,195546.25,27679,14.2
+Developer Tools,60,217500,195650,21850,11.2
+Customer Obsession,91,216650,195000,21650,11.1
+System Design / Architecture,97,216650,195650,21000,10.7
+Budget / Resource Mgmt,64,210500,196500,14000,7.1
+Adaptability / Learning,132,208800,195650,13150,6.7
+Partnerships / BD,229,207500,195000,12500,6.4
+Mentorship / Coaching,194,207200,195000,12200,6.3
+Storytelling,120,207100,195650,11450,5.9
+Platform / API Product,144,206700,195546.25,11154,5.7
+Media / Entertainment,146,206250,195650,10600,5.4
+Pricing & Monetization,91,205900,195650,10250,5.2
+B2B / Enterprise Product,323,205000,195000,10000,5.1
+Go-to-Market (GTM),264,204775,195000,9775,5
+REST APIs,275,203500,195000,8500,4.4
+Competitive Analysis,85,205900,197500,8400,4.3
+Critical Thinking,64,202581.25,195650,6931,3.5
+Roadmapping,622,200000,193100,6900,3.6
+P&L / Business Metrics,142,202375,195650,6725,3.4
+Sales Enablement,130,202500,196600,5900,3
+Manufacturing / Industrial,57,202500,196700,5800,2.9
+Ambiguity / Autonomy,461,200000,195000,5000,2.6
+Leadership,441,200000,195000,5000,2.6
+Influence w/o Authority,98,202500,197750,4750,2.4
+Embeddings,52,201125,197887.5,3238,1.6
+Product Lifecycle Mgmt,201,199934,197000,2934,1.5
+Executive Communication,202,200000,197500,2500,1.3
+Public Sector / Defense,172,200000,197500,2500,1.3
+E-commerce / Retail,131,200000,197500,2500,1.3
+Compliance & Regulation,70,200000,197637.5,2362,1.2
+Model Evaluation / Evals,169,200000,197775,2225,1.1
+Guardrails & Safety,103,200000,197775,2225,1.1
+Customer Interviews,53,200000,198037.5,1962,1
+Human-in-the-Loop,80,199850,198018.75,1831,0.9
+AI Agents / Agentic AI,449,198446,197775,671,0.3
+Product Strategy,461,198037.5,197500,538,0.3
+Experimentation & A/B Testing,181,198037.5,197500,538,0.3
+Market Research,64,198241.75,197887.5,354,0.2
+Model Context Protocol (MCP),68,197573,198037.5,-464,-0.2
+User Research,75,197000,198500,-1500,-0.8
+Cross-functional Leadership,496,197387.5,200000,-2612,-1.3
+Supply Chain / Logistics,65,195650,198446,-2796,-1.4
+AWS,83,195650,198500,-2850,-1.4
+SQL,91,195000,199000,-4000,-2
+Large Language Models,367,195650,199900,-4250,-2.1
+Legal / RegTech,353,195650,199900,-4250,-2.1
+Machine Learning,439,195650,200000,-4350,-2.2
+Customer Empathy / UX,263,195000,200000,-5000,-2.5
+Generative AI,228,195000,200000,-5000,-2.5
+Data-Driven Decisions,186,194306.25,200000,-5694,-2.8
+Data Governance,77,192600,198446,-5846,-2.9
+Data Pipelines / ETL,115,193325,200000,-6675,-3.3
+APIs,216,193287.5,200000,-6712,-3.4
+Cloud Computing,94,191650,199000,-7350,-3.7
+Prioritization,541,195000,202500,-7500,-3.7
+Problem Solving,161,192500,200000,-7500,-3.8
+Energy / Climate,96,192400,199967,-7567,-3.8
+Cybersecurity,137,192400,200000,-7600,-3.8
+Collaboration,539,195000,202662.5,-7662,-3.8
+RAG (Retrieval-Augmented Generation),122,190750,199967,-9217,-4.6
+Communication,572,195000,205000,-10000,-4.9
+Financial Services,381,192500,202662.5,-10162,-5
+Metrics & KPIs,311,191800,202662.5,-10862,-5.4
+Responsible AI / AI Ethics,168,188500,200000,-11500,-5.8
+Product Discovery,63,188500,200000,-11500,-5.8
+Healthcare / Life Sciences,409,192500,205000,-12500,-6.1
+Business Strategy,137,187500,200000,-12500,-6.2
+Microsoft Azure,55,185012.5,199934,-14922,-7.5
+HR / Future of Work,118,185000,200000,-15000,-7.5
+Dashboards & Reporting,95,185000,200000,-15000,-7.5
+Product Requirements (PRDs),234,187500,202581.25,-15081,-7.4
+Agile / Scrum,232,186350,202662.5,-16312,-8
+Stakeholder Management,491,192600,209500,-16900,-8.1
+Anthropic / Claude,99,180500,200000,-19500,-9.8
+OpenAI,62,179950,199917,-19967,-10
+Python,60,178950,199917,-20967,-10.5
+Data Analysis,89,177250,200000,-22750,-11.4
+Prompt Engineering,95,170325,200000,-29675,-14.8
+Jira / Confluence,45,160000,200000,-40000,-20

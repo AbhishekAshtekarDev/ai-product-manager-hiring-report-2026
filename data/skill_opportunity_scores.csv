@@ -1,0 +1,41 @@
+skill,category,share_pct,frequency_score,differentiation_score,salary_score,portability_score,required_score,opportunity_score,salary_delta_pct
+Product Requirements (PRDs),Product Management,34.8,86.6,99.6,0,100,95.8,75.4,-7.4
+B2B / Enterprise Product,Product Management,38.7,87.9,91.8,17,100,69.5,73,5.1
+Customer Empathy / UX,Product Management,33.7,86.2,97.1,0,100,84.5,72.9,-2.5
+Go-to-Market (GTM),Product Management,26.5,83.1,81.1,16.7,100,89.5,72.7,5
+Metrics & KPIs,Product Management,39.7,88.3,89.6,0,100,87.7,72.3,-5.4
+Agile / Scrum,Product Management,33.2,86,96,0,100,82.5,72.2,-8
+Partnerships / BD,Business & Commercial,23.9,81.7,75.3,21.3,100,75.2,69.5,6.4
+Product Lifecycle Mgmt,Product Management,25.6,82.7,79.1,5,100,85.5,69.1,1.5
+Legal / RegTech,Domain Knowledge,34,86.3,97.8,0,100,60.8,69,-2.1
+Generative AI,AI & ML Foundations,29.4,84.4,87.6,0,100,77.1,69,-2.5
+REST APIs,Technical & Engineering,28.3,83.9,85.1,14.7,100,62.9,68.8,4.4
+APIs,Technical & Engineering,28.2,83.9,84.9,0,100,80,68.8,-3.4
+Leadership,Leadership & Human Skills,50.9,91.5,64.7,8.7,100,80.6,68.3,2.6
+Healthcare / Life Sciences,Domain Knowledge,36.6,87.2,96.4,0,100,56.3,68.2,-6.1
+Ambiguity / Autonomy,Leadership & Human Skills,52.8,91.9,60.4,8.7,100,80.5,67.5,2.6
+Financial Services,Domain Knowledge,39.9,88.3,89.1,0,100,60,67.5,-5
+Large Language Models,AI & ML Foundations,46.2,90.2,75.1,0,100,73.7,67.3,-2.1
+Data-Driven Decisions,Product Management,24.4,82,76.4,0,100,84,67.1,-2.8
+Mentorship / Coaching,Leadership & Human Skills,21.2,80.2,69.3,21,100,70.6,66.9,6.3
+Adaptability / Learning,Leadership & Human Skills,17.5,77.8,61.1,22.3,100,75.7,65.6,6.7
+Problem Solving,Leadership & Human Skills,20.6,79.9,68,0,100,89,65.5,-3.8
+Product Strategy,Product Management,52.9,91.9,60.2,1,100,77.8,65.4,0.3
+Cross-functional Leadership,Product Management,56.7,92.8,51.8,0,100,85,64.8,-1.3
+Machine Learning,AI & ML Foundations,52,91.7,62.2,0,100,73,64.8,-2.2
+AI Agents / Agentic AI,Modern GenAI Stack,51.2,91.5,64,1,100,66.9,64.3,0.3
+Executive Communication,Leadership & Human Skills,19.4,79.1,65.3,4.3,100,80.8,64.1,1.3
+System Design / Architecture,Technical & Engineering,10.9,71.7,46.4,35.7,95.2,83.5,64,10.7
+Platform / API Product,Product Management,16.3,76.9,58.4,19,100,72.3,63.5,5.7
+Experimentation & A/B Testing,Product Management,20.1,79.5,66.9,1,95.2,81.4,63.4,0.3
+Customer Obsession,Leadership & Human Skills,9.9,70.5,44.2,37,90.5,84,62.9,11.1
+Responsible AI / AI Ethics,Modern GenAI Stack,23.2,81.4,73.8,0,95.2,67.3,62.8,-5.8
+Stakeholder Management,Product Management,63.6,94.3,36.4,0,100,89.4,62.6,-8.1
+RAG (Retrieval-Augmented Generation),Modern GenAI Stack,19,78.9,64.4,0,100,76.2,62.2,-4.6
+P&L / Business Metrics,Business & Commercial,15,75.8,55.6,11.3,100,78.5,62.1,3.4
+Media / Entertainment,Domain Knowledge,16.3,76.9,58.4,18,90.5,71.1,61.8,5.4
+Model Evaluation / Evals,Modern GenAI Stack,19.6,79.2,65.8,3.7,100,65.7,61.6,1.1
+Sales Enablement,Business & Commercial,16.5,77,58.9,10,95.2,74.5,61.6,3
+Storytelling,Leadership & Human Skills,12,73,48.9,19.7,100,79.2,61.6,5.9
+Prioritization,Product Management,67.4,95.1,28,0,100,89.2,60.9,-3.7
+Fine-tuning,Modern GenAI Stack,7.1,66.2,38,47.3,85.7,74.6,60.2,14.2

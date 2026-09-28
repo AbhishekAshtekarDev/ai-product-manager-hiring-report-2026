@@ -1,0 +1,1262 @@
+{
+  "name": "ai-product-manager-hiring-report-2026",
+  "title": "AI Product Manager Job Postings 2026: Open Dataset",
+  "description": "Aggregated tables from 2,448 unique AI product manager job postings (1,560 companies, 53 countries), captured 2026-09-12. The data behind the AI Product Manager Hiring Report 2026.",
+  "homepage": "https://theaiproductmanagerblueprint.com/ai-product-manager-hiring-report-2026/",
+  "version": "1.0.0",
+  "created": "2026-09-28",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Abhishek Ashtekar",
+      "role": "author",
+      "path": "https://theaiproductmanagerblueprint.com"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AI Product Manager Hiring Report 2026",
+      "path": "https://theaiproductmanagerblueprint.com/ai-product-manager-hiring-report-2026/"
+    }
+  ],
+  "keywords": [
+    "AI product manager",
+    "job postings",
+    "salary",
+    "skills",
+    "hiring",
+    "labor market"
+  ],
+  "resources": [
+    {
+      "name": "pipeline-funnel",
+      "path": "data/pipeline_funnel.csv",
+      "title": "Collection and de-duplication funnel",
+      "description": "Postings at each stage of the pipeline, from everything collected to the 2,448-posting core dataset.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "stage",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-source",
+      "path": "data/postings_by_source.csv",
+      "title": "Postings by source",
+      "description": "Where each kept record came from after de-duplication. Employer systems were preferred when a role appeared in several places.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-country",
+      "path": "data/postings_by_country.csv",
+      "title": "Postings by country",
+      "description": "Top 40 countries by number of AI PM postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-region",
+      "path": "data/postings_by_region.csv",
+      "title": "Postings by region",
+      "description": "Share of postings by world region.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-city",
+      "path": "data/postings_by_city.csv",
+      "title": "Postings by city",
+      "description": "Top 30 cities by number of AI PM postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-industry",
+      "path": "data/postings_by_industry.csv",
+      "title": "Postings by industry",
+      "description": "Industry of the hiring company.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "industry",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "postings-by-month-2026",
+      "path": "data/postings_by_month_2026.csv",
+      "title": "Postings by month posted (2026)",
+      "description": "Posting date by month. The snapshot favours recent months because older roles close and disappear.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "month",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "top-employers",
+      "path": "data/top_employers.csv",
+      "title": "Top employers",
+      "description": "The 40 companies with the most AI PM postings, with median posted pay where at least one posting disclosed it.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "company",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "median_salary_usd",
+            "type": "integer"
+          },
+          {
+            "name": "industry",
+            "type": "string"
+          },
+          {
+            "name": "countries",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "job-titles",
+      "path": "data/job_titles.csv",
+      "title": "Most common job titles",
+      "description": "Top 30 normalised job titles.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "title_normalised",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "seniority",
+      "path": "data/seniority.csv",
+      "title": "Postings by seniority",
+      "description": "Seniority inferred from the job title.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "seniority",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "role-types",
+      "path": "data/role_types.csv",
+      "title": "The 8 AI PM role types",
+      "description": "Role type (archetype), share of postings, median experience asked, median posted pay and the five most requested skills.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "role_type",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          },
+          {
+            "name": "median_experience_years",
+            "type": "integer"
+          },
+          {
+            "name": "median_salary_usd",
+            "type": "number"
+          },
+          {
+            "name": "top_5_skills",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "experience-bands",
+      "path": "data/experience_bands.csv",
+      "title": "Years of experience asked",
+      "description": "Minimum years of experience, among the 1,640 postings that state a number.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "band",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "experience-by-seniority",
+      "path": "data/experience_by_seniority.csv",
+      "title": "Experience asked by seniority",
+      "description": "Median minimum years of experience by level.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "seniority",
+            "type": "string"
+          },
+          {
+            "name": "median_years",
+            "type": "integer"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "experience-by-country",
+      "path": "data/experience_by_country.csv",
+      "title": "Experience asked by country",
+      "description": "Median minimum years of experience by country.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "median_years",
+            "type": "number"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "degree-requirement",
+      "path": "data/degree_requirement.csv",
+      "title": "Degree requirement",
+      "description": "How each posting treats a degree.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "degree-fields",
+      "path": "data/degree_fields.csv",
+      "title": "Degree fields named",
+      "description": "Fields of study named in postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "field",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "degree-by-seniority",
+      "path": "data/degree_by_seniority.csv",
+      "title": "Degree requirement by seniority",
+      "description": "Share of postings that require a degree, and that name an MBA, by level.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "seniority",
+            "type": "string"
+          },
+          {
+            "name": "degree_required_pct",
+            "type": "number"
+          },
+          {
+            "name": "not_mentioned_pct",
+            "type": "number"
+          },
+          {
+            "name": "mba_pct",
+            "type": "number"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "certifications",
+      "path": "data/certifications.csv",
+      "title": "Certifications named",
+      "description": "Certifications named in postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "certification",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skills",
+      "path": "data/skills.csv",
+      "title": "All 140 skills",
+      "description": "Every skill in the dictionary: share of postings naming it, and how often it sits in a required block when a posting splits required from preferred.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          },
+          {
+            "name": "required_mentions",
+            "type": "integer"
+          },
+          {
+            "name": "preferred_mentions",
+            "type": "integer"
+          },
+          {
+            "name": "required_share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ai-stack",
+      "path": "data/ai_stack.csv",
+      "title": "The AI stack",
+      "description": "AI and GenAI skills: agents, LLMs, RAG, evals, guardrails and more.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technical-skills",
+      "path": "data/technical_skills.csv",
+      "title": "Technical skills",
+      "description": "Programming languages, cloud platforms and other technical asks.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "technical-summary",
+      "path": "data/technical_summary.csv",
+      "title": "How technical the role is",
+      "description": "Share of postings by technical ask.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "measure",
+            "type": "string"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skill-pairs",
+      "path": "data/skill_pairs.csv",
+      "title": "Skills that travel together",
+      "description": "Skill pairs with the highest lift (how much more often they appear together than chance).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill_a",
+            "type": "string"
+          },
+          {
+            "name": "skill_b",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          },
+          {
+            "name": "lift",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skills-by-seniority",
+      "path": "data/skills_by_seniority.csv",
+      "title": "Skills by seniority",
+      "description": "Share of postings naming each top skill, by level.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "seniority",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "type": "number"
+          },
+          {
+            "name": "Roadmapping",
+            "type": "number"
+          },
+          {
+            "name": "Communication",
+            "type": "number"
+          },
+          {
+            "name": "Prioritization",
+            "type": "number"
+          },
+          {
+            "name": "Collaboration",
+            "type": "number"
+          },
+          {
+            "name": "Stakeholder Management",
+            "type": "number"
+          },
+          {
+            "name": "Cross-functional Leadership",
+            "type": "number"
+          },
+          {
+            "name": "Product Strategy",
+            "type": "number"
+          },
+          {
+            "name": "Ambiguity / Autonomy",
+            "type": "number"
+          },
+          {
+            "name": "Machine Learning",
+            "type": "number"
+          },
+          {
+            "name": "AI Agents / Agentic AI",
+            "type": "number"
+          },
+          {
+            "name": "Leadership",
+            "type": "number"
+          },
+          {
+            "name": "Large Language Models",
+            "type": "number"
+          },
+          {
+            "name": "Financial Services",
+            "type": "number"
+          },
+          {
+            "name": "Metrics & KPIs",
+            "type": "number"
+          },
+          {
+            "name": "B2B / Enterprise Product",
+            "type": "number"
+          },
+          {
+            "name": "Healthcare / Life Sciences",
+            "type": "number"
+          },
+          {
+            "name": "Product Requirements (PRDs)",
+            "type": "number"
+          },
+          {
+            "name": "Legal / RegTech",
+            "type": "number"
+          },
+          {
+            "name": "Customer Empathy / UX",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skills-by-country",
+      "path": "data/skills_by_country.csv",
+      "title": "Skills by country",
+      "description": "Share of postings naming each top skill, by country.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "type": "number"
+          },
+          {
+            "name": "Roadmapping",
+            "type": "number"
+          },
+          {
+            "name": "Communication",
+            "type": "number"
+          },
+          {
+            "name": "Prioritization",
+            "type": "number"
+          },
+          {
+            "name": "Collaboration",
+            "type": "number"
+          },
+          {
+            "name": "Stakeholder Management",
+            "type": "number"
+          },
+          {
+            "name": "Cross-functional Leadership",
+            "type": "number"
+          },
+          {
+            "name": "Product Strategy",
+            "type": "number"
+          },
+          {
+            "name": "Ambiguity / Autonomy",
+            "type": "number"
+          },
+          {
+            "name": "Machine Learning",
+            "type": "number"
+          },
+          {
+            "name": "AI Agents / Agentic AI",
+            "type": "number"
+          },
+          {
+            "name": "Leadership",
+            "type": "number"
+          },
+          {
+            "name": "Large Language Models",
+            "type": "number"
+          },
+          {
+            "name": "Financial Services",
+            "type": "number"
+          },
+          {
+            "name": "Metrics & KPIs",
+            "type": "number"
+          },
+          {
+            "name": "B2B / Enterprise Product",
+            "type": "number"
+          },
+          {
+            "name": "Healthcare / Life Sciences",
+            "type": "number"
+          },
+          {
+            "name": "Product Requirements (PRDs)",
+            "type": "number"
+          },
+          {
+            "name": "Legal / RegTech",
+            "type": "number"
+          },
+          {
+            "name": "Customer Empathy / UX",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-summary",
+      "path": "data/salary_summary.csv",
+      "title": "Posted salary summary",
+      "description": "Annualised midpoints of 904 posted base salary ranges, in US dollars.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "measure",
+            "type": "string"
+          },
+          {
+            "name": "usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-histogram",
+      "path": "data/salary_histogram.csv",
+      "title": "Posted salary distribution",
+      "description": "Postings by salary midpoint band (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "band_usd",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-seniority",
+      "path": "data/salary_by_seniority.csv",
+      "title": "Salary by seniority",
+      "description": "Median posted salary by level (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "seniority",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          },
+          {
+            "name": "p25_usd",
+            "type": "integer"
+          },
+          {
+            "name": "p75_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-market",
+      "path": "data/salary_by_market.csv",
+      "title": "Salary by market",
+      "description": "Median posted salary by country. Markets with fewer than 15 postings that disclose pay are left out (the UK has 13 and India has none).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          },
+          {
+            "name": "p25_usd",
+            "type": "integer"
+          },
+          {
+            "name": "p75_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-city",
+      "path": "data/salary_by_city.csv",
+      "title": "Salary by city",
+      "description": "Median posted salary by city (USD). Check the postings_with_pay column before quoting small cities.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-industry",
+      "path": "data/salary_by_industry.csv",
+      "title": "Salary by industry",
+      "description": "Median posted salary by industry (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "industry",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-role-type",
+      "path": "data/salary_by_role_type.csv",
+      "title": "Salary by role type",
+      "description": "Median posted salary by AI PM role type (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "role_type",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-experience",
+      "path": "data/salary_by_experience.csv",
+      "title": "Salary by years of experience asked",
+      "description": "Median posted salary by minimum years of experience (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "years_experience",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "salary-by-work-mode",
+      "path": "data/salary_by_work_mode.csv",
+      "title": "Salary by work mode",
+      "description": "Median posted salary by working model (USD).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "work_mode",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skill-salary-premium-us",
+      "path": "data/skill_salary_premium_us.csv",
+      "title": "Skill salary premium (US)",
+      "description": "Median US posted pay with and without each skill, among 774 US postings that disclose pay.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_skill",
+            "type": "integer"
+          },
+          {
+            "name": "median_with_usd",
+            "type": "number"
+          },
+          {
+            "name": "median_without_usd",
+            "type": "number"
+          },
+          {
+            "name": "delta_usd",
+            "type": "integer"
+          },
+          {
+            "name": "delta_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pay-finder",
+      "path": "data/pay_finder.csv",
+      "title": "Pay finder: market x level",
+      "description": "Median and middle half of posted pay for each market and level with at least 15 postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "market",
+            "type": "string"
+          },
+          {
+            "name": "level",
+            "type": "string"
+          },
+          {
+            "name": "postings_with_pay",
+            "type": "integer"
+          },
+          {
+            "name": "median_usd",
+            "type": "integer"
+          },
+          {
+            "name": "p25_usd",
+            "type": "integer"
+          },
+          {
+            "name": "p75_usd",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "high-pay-skill-lift",
+      "path": "data/high_pay_skill_lift.csv",
+      "title": "What $200K+ roles ask for more often",
+      "description": "Skills over-represented in postings paying $200K and up, compared with the rest.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "share_in_200k_plus_pct",
+            "type": "number"
+          },
+          {
+            "name": "share_below_200k_pct",
+            "type": "number"
+          },
+          {
+            "name": "lift_points",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "work-mode",
+      "path": "data/work_mode.csv",
+      "title": "Remote, hybrid or on-site",
+      "description": "Working model stated in the posting.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "work_mode",
+            "type": "string"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "work-mode-by-country",
+      "path": "data/work_mode_by_country.csv",
+      "title": "Work mode by country",
+      "description": "Share of postings that are remote, hybrid or on-site, by country.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "remote_pct",
+            "type": "number"
+          },
+          {
+            "name": "hybrid_pct",
+            "type": "number"
+          },
+          {
+            "name": "onsite_pct",
+            "type": "number"
+          },
+          {
+            "name": "postings",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skill-opportunity-scores",
+      "path": "data/skill_opportunity_scores.csv",
+      "title": "Skill opportunity scores",
+      "description": "Which skills are worth learning first: frequency, differentiation, pay, portability and required-block scores (0 to 100).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "skill",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "name": "share_pct",
+            "type": "number"
+          },
+          {
+            "name": "frequency_score",
+            "type": "number"
+          },
+          {
+            "name": "differentiation_score",
+            "type": "number"
+          },
+          {
+            "name": "salary_score",
+            "type": "number"
+          },
+          {
+            "name": "portability_score",
+            "type": "number"
+          },
+          {
+            "name": "required_score",
+            "type": "number"
+          },
+          {
+            "name": "opportunity_score",
+            "type": "number"
+          },
+          {
+            "name": "salary_delta_pct",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}

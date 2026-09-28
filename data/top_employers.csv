@@ -1,0 +1,36 @@
+company,postings,median_salary_usd,industry,countries
+Amazon,32,195650,E-commerce & Retail,4
+JPMorgan Chase,24,,Financial Services & FinTech,3
+Google,24,,Big Tech & Consumer Internet,3
+Airwallex,17,230000,Financial Services & FinTech,4
+Veeva,16,125000,Healthcare & Life Sciences,4
+Palo Alto Networks,16,215000,Cybersecurity,2
+Microsoft,15,208800,Big Tech & Consumer Internet,2
+Amazon Web Services (AWS),14,213050,Enterprise Software & SaaS,1
+OKX,13,,Financial Services & FinTech,3
+Capital One,13,176400,Financial Services & FinTech,1
+Veeva Systems,13,125000,Healthcare & Life Sciences,3
+TikTok,13,,Big Tech & Consumer Internet,2
+ServiceNow,12,304150,Enterprise Software & SaaS,2
+Meta,12,,Big Tech & Consumer Internet,3
+Qualcomm,11,245000,Manufacturing & Industrial,1
+Adobe,11,238450,Enterprise Software & SaaS,1
+Intuit,11,241750,Financial Services & FinTech,1
+BNY,11,,Financial Services & FinTech,2
+Citi,11,228000,Financial Services & FinTech,4
+Walmart,11,165000,E-commerce & Retail,1
+NVIDIA,11,,Manufacturing & Industrial,1
+Scale AI,10,231300,AI / ML Native,3
+Red Ventures,9,187500,Telecom & Networking,1
+Deloitte,9,172650,Consulting & Professional Services,5
+Wolters Kluwer,9,162850,Healthcare & Life Sciences,4
+Binance,8,,Financial Services & FinTech,4
+EY,8,,Consulting & Professional Services,5
+Bloomberg,8,217500,Developer Tools & Infrastructure,2
+Uber,8,,Automotive & Mobility,2
+Shopee,8,,E-commerce & Retail,3
+Workday,7,,Enterprise Software & SaaS,3
+LSEG,7,,Developer Tools & Infrastructure,3
+Lenovo,7,,Enterprise Software & SaaS,3
+Bloomreach,6,,Enterprise Software & SaaS,3
+Snowflake,6,243750,Developer Tools & Infrastructure,2

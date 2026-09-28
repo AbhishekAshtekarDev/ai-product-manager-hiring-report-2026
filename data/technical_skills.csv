@@ -1,0 +1,19 @@
+skill,postings,share_pct
+Python,220,9
+SQL,262,10.7
+APIs,690,28.2
+Cloud Computing,249,10.2
+AWS,236,9.6
+Microsoft Azure,228,9.3
+Google Cloud (GCP),131,5.4
+System Design / Architecture,266,10.9
+Data Pipelines / ETL,322,13.2
+MLOps,144,5.9
+LLMOps,53,2.2
+Docker,18,0.7
+Kubernetes,52,2.1
+Git / Version Control,87,3.6
+REST APIs,692,28.3
+Big Data (Spark/Hadoop),155,6.3
+JavaScript / TypeScript,58,2.4
+Java,10,0.4

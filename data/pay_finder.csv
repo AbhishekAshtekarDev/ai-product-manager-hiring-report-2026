@@ -1,0 +1,37 @@
+market,level,postings_with_pay,median_usd,p25_usd,p75_usd
+All markets,All levels,904,193288,159350,226500
+All markets,Mid-level,258,159010,125000,197500
+All markets,Senior,270,180000,160100,198875
+All markets,Lead / Group PM,62,215679,166000,241438
+All markets,Principal / Distinguished,210,221750,195000,245762
+All markets,Executive (VP/Head/Director),100,235750,201650,282300
+United States,All levels,774,198038,167625,231000
+United States,Mid-level,215,170000,135600,201250
+United States,Senior,225,187500,170325,200000
+United States,Lead / Group PM,57,217500,166000,242500
+United States,Principal / Distinguished,183,225510,206250,256650
+United States,Executive (VP/Head/Director),90,241250,210525,284138
+Canada,All levels,63,143200,125000,168615
+Canada,Mid-level,21,125000,101002,133425
+Canada,Senior,18,150650,135848,162500
+Canada,Lead / Group PM,1,,,
+Canada,Principal / Distinguished,15,165000,132778,168615
+Canada,Executive (VP/Head/Director),8,,,
+San Francisco Bay Area,All levels,203,223250,198250,258375
+San Francisco Bay Area,Mid-level,41,195000,175000,205000
+San Francisco Bay Area,Senior,62,200000,194612,219588
+San Francisco Bay Area,Lead / Group PM,20,243325,234250,250000
+San Francisco Bay Area,Principal / Distinguished,61,238450,221750,268713
+San Francisco Bay Area,Executive (VP/Head/Director),19,303250,279825,323600
+New York,All levels,79,202500,177750,232075
+New York,Mid-level,18,184725,170075,219375
+New York,Senior,26,188700,161550,211250
+New York,Lead / Group PM,4,,,
+New York,Principal / Distinguished,18,232850,206250,267812
+New York,Executive (VP/Head/Director),12,,,
+Seattle,All levels,62,208800,177900,229366
+Seattle,Mid-level,7,,,
+Seattle,Senior,27,179050,177900,199325
+Seattle,Lead / Group PM,2,,,
+Seattle,Principal / Distinguished,24,214025,209475,239446
+Seattle,Executive (VP/Head/Director),2,,,

@@ -1,0 +1,33 @@
+{
+  "title": "AI Product Manager Job Postings 2026: Open Dataset",
+  "upload_type": "dataset",
+  "description": "<p>Aggregated tables from 2,448 unique AI product manager job postings (1,560 companies, 53 countries) captured on 2026-09-12. The data behind the <a href=\"https://theaiproductmanagerblueprint.com/ai-product-manager-hiring-report-2026/\">AI Product Manager Hiring Report 2026</a>.</p>",
+  "creators": [
+    {
+      "name": "Ashtekar, Abhishek"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI product manager",
+    "job postings",
+    "salary",
+    "skills",
+    "hiring",
+    "labor market"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://theaiproductmanagerblueprint.com/ai-product-manager-hiring-report-2026/",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-report",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://abhishekashtekardev.github.io/ai-product-manager-hiring-report-2026/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "publication_date": "2026-09-28"
+}
